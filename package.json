@@ -1,0 +1,26 @@
+{
+  "name": "simple-react-login",
+  "version": "1.0.0",
+  "description": "Provides a simple sample on how to create a React component to be used in Auth0 custom login page",
+  "main": "src/index.js",
+  "repository": "https://github.com/CriGoT/auth0-simple-react-hosted",
+  "author": "Cristofer Gonzales",
+  "license": "MIT",
+  "scripts" : {
+    "start" : "webpack-dev-server --config webpack/webpack.config.dev.js --open",
+    "build" : "webpack -p --config webpack/webpack.config.prod.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-latest": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "auth0-js": "^8.5.0"
+  }
+}
